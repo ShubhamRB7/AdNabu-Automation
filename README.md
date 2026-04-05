@@ -41,7 +41,8 @@ If successful:
 ## 📁 Project Structure
 
 AdNabu-Automation/
-│── AdNabuFixedTask.py  
+│── Task 1: Test_Design.py 
+│── Task 2: AdNabuFixedTask.py
 │── requirements.txt  
 │── README.md  
 
