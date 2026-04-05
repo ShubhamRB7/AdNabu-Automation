@@ -1,0 +1,25 @@
+🔍 A) Product Search – Test Cases
+
+TC1: Valid Product Search (Positive)
+Steps: Enter "The Collection Snowboard: Liquid" in search bar → Click search
+Expected Result: Product card/page for "The Collection Snowboard: Liquid" is displayed
+
+TC2: Partial Keyword Search (Positive)
+Steps: Enter "Snowboard" → Click search
+Expected Result: Products containing "Snowboard" are displayed, including "The Collection Snowboard: Liquid"
+
+TC3: Invalid Product Search (Negative)
+Steps: Enter "abc123xyz" → Click search
+Expected Result: "No products found" message is displayed
+
+TC4: Empty Search (Edge Case)
+Steps: Leave search bar empty → Click search
+Expected Result: Either all products displayed or validation message appears
+
+TC5: Special Characters Search (Negative)
+Steps: Enter "@#$%" → Click search
+Expected Result: No results displayed or proper validation message shown
+
+TC6: Case Insensitivity Check (Edge Case)
+Steps: Search "THE COLLECTION SNOWBOARD: LIQUID" → Search "the collection snowboard: liquid"
+Expected Result: Both searches return the same results
